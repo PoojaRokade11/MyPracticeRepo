@@ -60,7 +60,7 @@ public class StepDefinition11 {
 		res= given().log().all().headers("x-api-key","reqres-free-v1")
 				.relaxedHTTPSValidation().spec(req)
 				.body(CreateUserData.createUser());
-				
+				System.out.println("Hellow");
 				
 				
 		
@@ -223,3 +223,4 @@ String Response=		given().log().all()
 	
 
 }
+
